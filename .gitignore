@@ -1,0 +1,25 @@
+
+*.iml
+.idea/
+.gradle/
+
+# Local configuration
+/local.properties
+secrets.properties
+
+# Build files
+/build/
+/app/build/
+**/build/
+
+# Android native build files
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+/captures/
+.DS_Store
+
+# Signing keys - never upload private keys
+*.jks
+*.keystore
