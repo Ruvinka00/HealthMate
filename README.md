@@ -220,40 +220,36 @@ Examples from created HealthMate Application:
 4. Project Structure
 
 HealthMate/
-|
-|-- app/
-|   |
-|   |-- src/
-|   |   |
-|   |   |-- main/
-|   |       |
-|   |       |-- java/
-|   |       |   |
-|   |       |   |-- MainActivity.kt
-|   |       |   |-- HealthMateDatabase.kt
-|   |       |   |-- HealthRepository.kt
-|   |       |   |
-|   |       |   |-- screens/
-|   |       |       |
-|   |       |       |-- WelcomeScreen.kt
-|   |       |       |-- LoginScreen.kt
-|   |       |       |-- DashboardScreen.kt
-|   |       |       |-- WellnessScreen.kt
-|   |       |       |-- MonthlyReportScreen.kt
-|   |       |
-|   |       |-- res/
-|   |           |
-|   |           |-- drawable/
-|   |           |-- mipmap/
-|   |
-|   |-- build.gradle.kts
-|
-|-- gradle/
-|-- build.gradle.kts
-|-- settings.gradle.kts
-|-- gradlew
-|-- gradlew.bat
-|-- README.md
+-- app/
+-- src/
+-- main/
+-- java/
+-- AuthComponents.kt
+-- DashboardScreen.kt
+-- ForgotPasswordScreen.kt
+-- HealthMateColors.kt
+-- HealthMateDatabase.kt
+-- HealthRepository.kt
+-- LoginScreen.kt
+-- MainActivity.kt
+-- MonthlyReportScreen.kt
+-- RegisterScreen.kt
+-- ResetPasswordScreen.kt
+-- SuccessScreen.kt
+-- WelcomeScreen.kt
+-- WellnessScreen.kt
+
+-- res/
+
+-- drawable/
+-- mipmap/
+-- build.gradle.kts
+-- gradle/
+-- build.gradle.kts
+-- settings.gradle.kts
+-- gradlew
+-- gradlew.bat
+-- README.md
 
 5. Installation Guide
 
